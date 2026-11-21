@@ -1,4 +1,5 @@
 {
     "cmake.options.statusBarVisibility": "visible",
-    "C_Cpp.debugShortcut": false
+    "C_Cpp.debugShortcut": false,
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
 }
