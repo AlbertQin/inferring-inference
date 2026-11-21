@@ -1,0 +1,11 @@
+[project]
+name = "npu-sim"
+version = "0.1.0"
+description = "Cycle-level simulator of a small systolic-array NPU."
+requires-python = ">=3.11"
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
